@@ -87,7 +87,7 @@ class ImgList {
   * YOU MAY DEFINE YOUR OWN PRIVATE MEMBER FUNCTIONS BELOW *
   *********************************************************/
   private:
-  
+    
 };
 
 #endif

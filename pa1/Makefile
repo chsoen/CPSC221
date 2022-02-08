@@ -15,7 +15,7 @@ testimglist.o : testimglist.cpp imglist.h cs221util/PNG.h cs221util/HSLAPixel.h
 	$(CXX) $(CXXFLAGS) testimglist.cpp
 
 imglist.o : imglist.cpp imglist.h
-	$(CXX) $(CXXFLAGS) imglist.cpp
+	$(CXX) $(CXXFLAGS) -Wfloat-conversion imglist.cpp
 
 PNG.o : cs221util/PNG.cpp cs221util/PNG.h cs221util/HSLAPixel.h cs221util/lodepng/lodepng.h
 	$(CXX) $(CXXFLAGS) cs221util/PNG.cpp
